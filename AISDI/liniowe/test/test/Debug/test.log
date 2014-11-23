@@ -1,0 +1,42 @@
+﻿Build started 2014-11-01 23:06:56.
+     1>Project "D:\AISDI\test\test\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt asd.cc main.cc
+         main.cc
+     1>d:\aisdi\test\test\main.cc(39): warning C4101: 'czas' : unreferenced local variable
+         asd.cc
+     1>d:\aisdi\test\test\asd.cc(74): error C2600: 'ListMap::operator =' : cannot define a compiler-generated special member function (must be declared in the class first)
+     1>d:\aisdi\test\test\asd.cc(76): error C2440: 'initializing' : cannot convert from 'ListMap::const_iterator' to 'ListMap::iterator'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+                 This diagnostic occurred in the compiler generated function 'ListMap &ListMap::operator =(const ListMap &)'
+     1>d:\aisdi\test\test\asd.cc(145): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'ListMap::const_iterator' (or there is no acceptable conversion)
+                 d:\aisdi\test\test\listmap.h(183): could be 'ListMap::iterator &ListMap::iterator::operator =(const ListMap::iterator &)'
+                 while trying to match the argument list '(ListMap::iterator, ListMap::const_iterator)'
+     1>d:\aisdi\test\test\asd.cc(196): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'ListMap::const_iterator' (or there is no acceptable conversion)
+                 d:\aisdi\test\test\listmap.h(183): could be 'ListMap::iterator &ListMap::iterator::operator =(const ListMap::iterator &)'
+                 while trying to match the argument list '(ListMap::iterator, ListMap::const_iterator)'
+     1>d:\aisdi\test\test\asd.cc(639): error C2664: 'ListMap::iterator ListMap::erase(ListMap::iterator,ListMap::iterator)' : cannot convert parameter 1 from 'ListMap::const_iterator' to 'ListMap::iterator'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>d:\aisdi\test\test\asd.cc(645): error C2664: 'ListMap::iterator ListMap::erase(ListMap::iterator,ListMap::iterator)' : cannot convert parameter 1 from 'ListMap::const_iterator' to 'ListMap::iterator'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>d:\aisdi\test\test\asd.cc(745): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(747): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(749): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(757): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(759): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(761): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(779): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(781): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(801): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(803): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(805): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(810): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(817): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(819): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+     1>d:\aisdi\test\test\asd.cc(821): error C2264: 'ListMap::operator =' : error in function definition or declaration; function not called
+         Generating Code...
+     1>Done Building Project "D:\AISDI\test\test\test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.69
