@@ -10,7 +10,7 @@ main.o: main.cpp
 	$(info KOMPILACJA MAIN.CPP)
 	$(CXX) $(CXXFLAGS) main.cpp
 
-LiczbaZespolona.o: LiczbaZespolona.cpp LiczbaZespolona.h
+LiczbaZespolona.o: LiczbaZespolona.cpp
 	$(info KOMPILACJA LiczbaZespolona.CPP)
 	$(CXX) $(CXXFLAGS) LiczbaZespolona.cpp
 
