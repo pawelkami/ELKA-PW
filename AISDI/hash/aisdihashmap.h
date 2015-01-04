@@ -381,7 +381,7 @@ public:
 
 	   Node* temp = i.node;
 
-	   if(temp = hash_table[hashed])
+	   if(temp == hash_table[hashed])
 	   {
 		   if((temp->next->hash != hashed) || temp->next == sentinel)
 			   hash_table[hashed] = NULL;

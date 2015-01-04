@@ -17,7 +17,6 @@ ALL RIGHTS RESERVED
 
 #include <utility>
 #include <iterator>
-#include <iostream>
 
 #define SIZE	65536
 

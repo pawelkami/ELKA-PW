@@ -1,4 +1,0 @@
-#!/bin/sh
-g++ -c -Wall buffer.cpp &&
-g++ -c -Wall main.cpp -lpthread &&
-g++ -Wall main.o buffer.o -lpthread
