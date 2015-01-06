@@ -16,4 +16,4 @@ Zbior.o: Zbior.cpp Zbior.h
 
 clean:
 	$(info CZYSZCZENIE)
-	rm -f *.o start
+	rm *~ *.o start

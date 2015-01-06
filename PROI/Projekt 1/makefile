@@ -16,4 +16,4 @@ LiczbaZespolona.o: LiczbaZespolona.cpp
 
 clean:
 	$(info CZYSZCZENIE)
-	rm -f *.o start
+	rm *~ *.o start
