@@ -16,4 +16,4 @@ buffer.o: buffer.cpp
 
 clean:
 	$(info CZYSZCZENIE)
-	rm -f *.o start
+	rm *.o *~ start
